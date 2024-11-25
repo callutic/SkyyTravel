@@ -1,4 +1,4 @@
-﻿// Создание кода T4 для модели "C:\Users\student\source\repos\SkyyTravel\SkyyTravel\Base\Avia.edmx" включено. 
+﻿// Создание кода T4 для модели "C:\Users\aynal\Source\Repos\callutic\SkyyTravel\SkyyTravel\Base\Avia.edmx" включено. 
 // Чтобы включить формирование кода прежних версий, измените значение свойства "Стратегия создания кода" конструктора
 // на "Legacy ObjectContext". Это свойство доступно в окне "Свойства", если модель
 // открыта в конструкторе.

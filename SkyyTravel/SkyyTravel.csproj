@@ -218,15 +218,21 @@
       <DependentUpon>Avia.edmx</DependentUpon>
       <LastGenOutput>Avia.cs</LastGenOutput>
     </Content>
+    <Resource Include="ResFolder\svg.png" />
+    <Resource Include="ResFolder\im.png" />
+    <Resource Include="ResFolder\im1.png" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ClassFolder\" />
-    <Folder Include="ResFolder\" />
   </ItemGroup>
   <ItemGroup>
+    <Page Include="ResFolder\Dic.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="WinFolder\Avtoriz.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
