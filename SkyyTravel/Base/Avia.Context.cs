@@ -17,11 +17,18 @@ namespace SkyyTravel.Base
     
     public partial class user100Entities : DbContext
     {
+        private static user100Entities _context;
         public user100Entities()
             : base("name=user100Entities")
         {
         }
-    
+        public static user100Entities GetContext()
+        {
+            if (_context == null)
+                _context = new user100Entities();
+            return _context;
+        }
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             throw new UnintentionalCodeFirstException();
