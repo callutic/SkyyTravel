@@ -38,8 +38,8 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
 
-        <Image Source="/ResFolder/im.png" Grid.ColumnSpan="6" Margin="10,-44,-13,-43" Grid.RowSpan="9" />
-        <Image Source="/ResFolder/svg.png" Grid.ColumnSpan="3" Margin="41,15,101,25" Grid.RowSpan="4" Grid.Row="1" />
+        <Image Source="/ResFolder/im.png" Grid.ColumnSpan="6" Margin="10,-43,-13,-44" Grid.RowSpan="9" />
+        <Image Source="/ResFolder/svg.png" Grid.ColumnSpan="3" Margin="59,0,101,25" Grid.RowSpan="3" Grid.Row="2" />
         <TextBlock Grid.ColumnSpan="3" Margin="85,18,133,42" Grid.Row="4"
                    Text="СкайТревел"
                    Foreground="#FFFFFF"
@@ -49,16 +49,73 @@
                    Foreground="#FFFFFF"
                    FontSize="15" 
                    FontWeight="Bold"/>
-        <TextBlock Grid.Column="3" Grid.ColumnSpan="3" Margin="111,12,50,38" Grid.RowSpan="2" Grid.Row="1" 
+        <TextBlock Grid.Column="3" Grid.ColumnSpan="3" Margin="119,0,42,0" Grid.Row="1" 
                    Text="Авторизация"
                    Foreground="#FFFFFF"
                    FontWeight="Bold"
                    FontSize="35"/>
-        
-
-       
-
-
-
+        <TextBox Grid.Column="3" HorizontalAlignment="Left" 
+                 Margin="55,0,0,0" Grid.Row="2" 
+                 TextWrapping="Wrap" VerticalAlignment="Center" Width="318"
+                 Background="#FFFFFF" Style="{DynamicResource textBox}" 
+                 Grid.ColumnSpan="3" Height="50" Grid.RowSpan="2"/>
+        <PasswordBox Grid.Column="3" HorizontalAlignment="Left" 
+                     Margin="55,18,0,0" Grid.Row="4" 
+                     Grid.ColumnSpan="3" Height="50"
+                      Background="#FFFFFF" Style="{DynamicResource MaterialDesignOutlinedPasswordBox}"
+                     BorderBrush="Transparent"
+                     VerticalAlignment="Top" Width="318" Grid.RowSpan="2"/>
+        <Button Grid.Column="3" 
+                Content="Войти" 
+                HorizontalAlignment="Left" 
+                Margin="55,24,0,0" Grid.Row="6" 
+                VerticalAlignment="Top" Height="40" 
+                Width="105" Grid.ColumnSpan="2"
+                Style="{StaticResource MaterialDesignFlatMidBgButton}"
+                ToolTip="Resource name: MaterialDesignRaisedButton"
+                Background="#06EEFF"
+                BorderBrush="Transparent"
+                Foreground="#0F0F0F" Grid.RowSpan="2"/>
+        <CheckBox
+    Style="{StaticResource MaterialDesignCheckBox}" 
+            Grid.Column="4" 
+            Grid.ColumnSpan="2" 
+            Margin="112,33,27,17" Grid.Row="6"
+            Foreground="White"
+            Background="Black" Grid.RowSpan="2">
+            Запомнить меня
+        </CheckBox>
+        <TextBlock Grid.Column="3" 
+                   HorizontalAlignment="Left" 
+                   Margin="55,25,0,0" Grid.Row="7" 
+                   TextWrapping="Wrap" Text="Первый раз у нас?" 
+                   VerticalAlignment="Top" Grid.ColumnSpan="2" Width="151"
+                   Foreground="#03045E"
+                   FontSize="15"
+                   FontWeight="Bold"/>
+        <Button Grid.Column="4" 
+                Content="Регистрация" 
+                Margin="48,18,104,0" 
+                Grid.Row="7" 
+                VerticalAlignment="Top" 
+                Grid.ColumnSpan="2"
+                Style="{StaticResource MaterialDesignFlatButton}"
+                Foreground="#06EEFF"/>
+        <Button Grid.Column="3" 
+                Content="Забыли логин?"
+                FontSize="11"
+                HorizontalAlignment="Left" 
+                Margin="36,18,0,0" Grid.Row="3" 
+                VerticalAlignment="Top"
+                 Style="{StaticResource MaterialDesignFlatButton}" Width="115"
+                Foreground="#a8a7a7" Grid.ColumnSpan="2"/>
+        <Button Grid.Column="3" 
+                Content="Забыли пароль?" 
+                HorizontalAlignment="Left" 
+                Margin="43,12,0,0" Grid.Row="5" 
+                VerticalAlignment="Top"
+                 Style="{StaticResource MaterialDesignFlatButton}"
+                 Foreground="#a8a7a7" Grid.ColumnSpan="2"
+                FontSize="11"/>
     </Grid>
 </Window>
