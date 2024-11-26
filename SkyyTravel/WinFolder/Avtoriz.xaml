@@ -80,7 +80,7 @@
     Style="{StaticResource MaterialDesignCheckBox}" 
             Grid.Column="4" 
             Grid.ColumnSpan="2" 
-            Margin="112,33,27,17" Grid.Row="6"
+            Margin="35,18,104,32" Grid.Row="6"
             Foreground="White"
             Background="Black" Grid.RowSpan="2">
             Запомнить меня

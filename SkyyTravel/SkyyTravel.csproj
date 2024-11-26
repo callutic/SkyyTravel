@@ -221,6 +221,9 @@
       <DependentUpon>Avia.edmx</DependentUpon>
       <LastGenOutput>Avia.cs</LastGenOutput>
     </Content>
+    <Resource Include="Image3.png" />
+    <Resource Include="Image2.png" />
+    <Resource Include="Image1.png" />
     <Resource Include="ResFolder\svg.png" />
     <Resource Include="ResFolder\im.png" />
     <Resource Include="ResFolder\im1.png" />

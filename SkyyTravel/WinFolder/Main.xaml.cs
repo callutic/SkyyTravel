@@ -23,5 +23,9 @@ namespace SkyyTravel.WinFolder
         {
             InitializeComponent();
         }
+        private void MyTickets_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

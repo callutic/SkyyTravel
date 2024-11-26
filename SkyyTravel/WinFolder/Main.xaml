@@ -5,10 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SkyyTravel.WinFolder"
         mc:Ignorable="d"
+         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         Title="Main" Height="600" Width="1100"
         WindowStartupLocation="CenterScreen"
         WindowStyle="None">
+
     <Grid>
+
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition/>
@@ -31,13 +34,100 @@
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <Rectangle Grid.ColumnSpan="2" Margin="-91,0,78,0" Grid.RowSpan="11" Fill="#651FFF" RadiusX="90" RadiusY="90"/>
-        <Image Source="/ResFolder/svg.png" Grid.ColumnSpan="2" Margin="-2,12,122,0" Grid.RowSpan="2" />
-        <TextBlock Margin="32,46,4,34" Grid.RowSpan="2" Grid.Row="1"  Text="СкайТревел" Foreground="#FFFFFF"
+        <Rectangle Grid.ColumnSpan="2" Margin="-91,0,78,0" 
+                   Grid.RowSpan="11" Fill="#651FFF"
+                   RadiusX="90" RadiusY="90"/>
+        <Image Source="/ResFolder/svg.png" Grid.ColumnSpan="2"
+               Margin="-2,12,122,0" Grid.RowSpan="2" />
+        <TextBlock Margin="32,46,4,34" Grid.RowSpan="2" 
+                   Grid.Row="1"  Text="СкайТревел" Foreground="#FFFFFF"
                    FontWeight="Bold"
                    FontSize="20"/>
 
-        <Button Content="Button" HorizontalAlignment="Left" Margin="18,12,0,0" Grid.Row="3" VerticalAlignment="Top" Width="139" Height="42"/>
+        <Border HorizontalAlignment="Left" Grid.Row="3" 
+                VerticalAlignment="Center" Margin="9,0,0,0">
+            <Grid>
+                <Button HorizontalAlignment="Right" VerticalAlignment="Center"
+                        HorizontalContentAlignment="Right"
+                        VerticalContentAlignment="Center"
+                        Content="Мои билеты" Width="139"
+                        Height="42" Click="MyTickets_Click"/>
+                <materialDesign:PackIcon Kind="TicketConfirmation"
+                        Height="22" Width="26" 
+                        VerticalAlignment="Center"
+                        Margin="5,0,0,0"/>
+            </Grid>
+        </Border>
+        <Border HorizontalAlignment="Left" Grid.Row="4"
+                VerticalAlignment="Center" Margin="9,0,0,0">
+            <Grid>
+                <Button HorizontalAlignment="Right"
+                VerticalAlignment="Center"
+                HorizontalContentAlignment="Right"
+                VerticalContentAlignment="Center"
+                Content="Пассажиры" Width="139"
+                Height="42" Click="MyTickets_Click"/>
+                <materialDesign:PackIcon Kind="TicketConfirmation"
+                Height="22" Width="26" VerticalAlignment="Center"
+                Margin="5,0,0,0"/>
+            </Grid>
+        </Border>
+        <Border HorizontalAlignment="Left" Grid.Row="5" 
+                VerticalAlignment="Center" Margin="9,0,0,0">
+            <Grid>
+                <Button HorizontalAlignment="Right" 
+                VerticalAlignment="Center"
+                HorizontalContentAlignment="Right"
+                VerticalContentAlignment="Center"
+                Content="Информация" Width="139"
+                Height="42" Click="MyTickets_Click"/>
+                <materialDesign:PackIcon Kind="TicketConfirmation"
+                Height="22" Width="26" VerticalAlignment="Center"
+                Margin="5,0,0,0"/>
+            </Grid>
+        </Border>
+        <Border HorizontalAlignment="Left" Grid.Row="6"
+                VerticalAlignment="Center" Margin="9,0,0,0">
+            <Grid>
+                <Button HorizontalAlignment="Right"
+                        VerticalAlignment="Center"
+                HorizontalContentAlignment="Right"
+                VerticalContentAlignment="Center"
+                Content="Избранное" Width="139"
+                Height="42" Click="MyTickets_Click"/>
+                <materialDesign:PackIcon Kind="TicketConfirmation"
+                Height="22" Width="26" VerticalAlignment="Center" 
+                Margin="5,0,0,0"/>
+            </Grid>
+        </Border>
+        <Border HorizontalAlignment="Left" Grid.Row="8"
+                VerticalAlignment="Center" Margin="9,0,0,0">
+            <Grid>
+                <Button HorizontalAlignment="Right" 
+                VerticalAlignment="Center"
+                HorizontalContentAlignment="Center"
+                VerticalContentAlignment="Center"
+                Content="Профиль" Width="139"
+                Height="42" Click="MyTickets_Click"/>
+                <materialDesign:PackIcon Kind="TicketConfirmation"
+                Height="22" Width="26" VerticalAlignment="Center"
+                Margin="5,0,0,0"/>
+            </Grid>
+        </Border>
+        <Border HorizontalAlignment="Left" Grid.Row="9"
+                VerticalAlignment="Center" Margin="9,0,0,0">
+            <Grid>
+                <Button HorizontalAlignment="Right"
+                VerticalAlignment="Center"
+                HorizontalContentAlignment="Right"
+                VerticalContentAlignment="Center"
+                Content="Поддержка" Width="139"
+                Height="42" Click="MyTickets_Click"/>
+                <materialDesign:PackIcon Kind="TicketConfirmation"
+                Height="22" Width="26" VerticalAlignment="Center"
+                Margin="5,0,0,0"/>
+            </Grid>
+        </Border>
 
     </Grid>
 </Window>
