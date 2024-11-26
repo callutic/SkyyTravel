@@ -8,5 +8,10 @@
             </Style>
         </Style.Resources>
     </Style>
+    <Style x:Key="StackPanelStyle1" TargetType="{x:Type StackPanel}">
+        <Style.Resources>
+            
+        </Style.Resources>
+    </Style>
    
 </ResourceDictionary>

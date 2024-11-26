@@ -75,7 +75,7 @@
                 ToolTip="Resource name: MaterialDesignRaisedButton"
                 Background="#06EEFF"
                 BorderBrush="Transparent"
-                Foreground="#0F0F0F" Grid.RowSpan="2"/>
+                Foreground="#0F0F0F" Grid.RowSpan="2" Click="Button_Click"/>
         <CheckBox
     Style="{StaticResource MaterialDesignCheckBox}" 
             Grid.Column="4" 

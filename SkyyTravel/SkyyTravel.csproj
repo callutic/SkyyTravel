@@ -94,6 +94,9 @@
     <Compile Include="WinFolder\Avtoriz.xaml.cs">
       <DependentUpon>Avtoriz.xaml</DependentUpon>
     </Compile>
+    <Compile Include="WinFolder\Main.xaml.cs">
+      <DependentUpon>Main.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Base\Aeroports.cs">
@@ -234,6 +237,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="WinFolder\Avtoriz.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WinFolder\Main.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

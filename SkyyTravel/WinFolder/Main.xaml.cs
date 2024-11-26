@@ -15,18 +15,13 @@ using System.Windows.Shapes;
 namespace SkyyTravel.WinFolder
 {
     /// <summary>
-    /// Логика взаимодействия для Avtoriz.xaml
+    /// Логика взаимодействия для Main.xaml
     /// </summary>
-    public partial class Avtoriz : Window
+    public partial class Main : Window
     {
-        public Avtoriz()
+        public Main()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            
         }
     }
 }
