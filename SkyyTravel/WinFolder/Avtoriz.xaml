@@ -95,12 +95,12 @@
                    FontWeight="Bold"/>
         <Button Grid.Column="4" 
                 Content="Регистрация" 
-                Margin="48,18,104,0" 
+                Margin="73,19,79,0" 
                 Grid.Row="7" 
                 VerticalAlignment="Top" 
                 Grid.ColumnSpan="2"
                 Style="{StaticResource MaterialDesignFlatButton}"
-                Foreground="#06EEFF"/>
+                Foreground="#06EEFF" Grid.RowSpan="2"/>
         <Button Grid.Column="3" 
                 Content="Забыли логин?"
                 FontSize="11"
