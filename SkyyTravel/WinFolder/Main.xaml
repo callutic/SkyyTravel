@@ -51,11 +51,14 @@
                         HorizontalContentAlignment="Right"
                         VerticalContentAlignment="Center"
                         Content="Мои билеты" Width="139"
-                        Height="42" Click="MyTickets_Click"/>
+                        Height="42" Click="MyTickets_Click"
+                        />
                 <materialDesign:PackIcon Kind="TicketConfirmation"
                         Height="22" Width="26" 
                         VerticalAlignment="Center"
-                        Margin="5,0,0,0"/>
+                        Margin="5,0,0,0" BorderBrush="Transparent"
+                                         Background="Transparent"
+                                         Foreground="#cacaca"/>
             </Grid>
         </Border>
         <Border HorizontalAlignment="Left" Grid.Row="4"
@@ -67,9 +70,12 @@
                 VerticalContentAlignment="Center"
                 Content="Пассажиры" Width="139"
                 Height="42" Click="MyTickets_Click"/>
-                <materialDesign:PackIcon Kind="TicketConfirmation"
+                <materialDesign:PackIcon  Kind="AccountSupervisor"
                 Height="22" Width="26" VerticalAlignment="Center"
-                Margin="5,0,0,0"/>
+                Margin="5,0,0,0"
+                                          BorderBrush="Transparent"
+                                         Background="Transparent"
+                                         Foreground="#cacaca"/>
             </Grid>
         </Border>
         <Border HorizontalAlignment="Left" Grid.Row="5" 
@@ -81,9 +87,12 @@
                 VerticalContentAlignment="Center"
                 Content="Информация" Width="139"
                 Height="42" Click="MyTickets_Click"/>
-                <materialDesign:PackIcon Kind="TicketConfirmation"
+                <materialDesign:PackIcon Kind="InformationVariant"
                 Height="22" Width="26" VerticalAlignment="Center"
-                Margin="5,0,0,0"/>
+                Margin="5,0,0,0"
+                                         BorderBrush="Transparent"
+                                         Background="Transparent"
+                                         Foreground="#cacaca"/>
             </Grid>
         </Border>
         <Border HorizontalAlignment="Left" Grid.Row="6"
@@ -95,9 +104,12 @@
                 VerticalContentAlignment="Center"
                 Content="Избранное" Width="139"
                 Height="42" Click="MyTickets_Click"/>
-                <materialDesign:PackIcon Kind="TicketConfirmation"
+                <materialDesign:PackIcon Kind="BookmarkBorder"
                 Height="22" Width="26" VerticalAlignment="Center" 
-                Margin="5,0,0,0"/>
+                Margin="5,0,0,0"
+                                         BorderBrush="Transparent"
+                                         Background="Transparent"
+                                         Foreground="#cacaca"/>
             </Grid>
         </Border>
         <Border HorizontalAlignment="Left" Grid.Row="8"
@@ -109,9 +121,12 @@
                 VerticalContentAlignment="Center"
                 Content="Профиль" Width="139"
                 Height="42" Click="MyTickets_Click"/>
-                <materialDesign:PackIcon Kind="TicketConfirmation"
+                <materialDesign:PackIcon Kind="Account" 
                 Height="22" Width="26" VerticalAlignment="Center"
-                Margin="5,0,0,0"/>
+                Margin="5,0,0,0"
+                                    BorderBrush="Transparent"
+                                         Background="Transparent"
+                                         Foreground="#cacaca"     />
             </Grid>
         </Border>
         <Border HorizontalAlignment="Left" Grid.Row="9"
@@ -123,9 +138,12 @@
                 VerticalContentAlignment="Center"
                 Content="Поддержка" Width="139"
                 Height="42" Click="MyTickets_Click"/>
-                <materialDesign:PackIcon Kind="TicketConfirmation"
+                <materialDesign:PackIcon Kind="HelpOutline"
                 Height="22" Width="26" VerticalAlignment="Center"
-                Margin="5,0,0,0"/>
+                Margin="5,0,0,0"
+                     BorderBrush="Transparent"
+                                         Background="Transparent"
+                                         Foreground="#cacaca"                    />
             </Grid>
         </Border>
 
