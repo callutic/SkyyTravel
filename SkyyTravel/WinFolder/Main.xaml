@@ -39,7 +39,7 @@
                    RadiusX="90" RadiusY="90"/>
         <Image Source="/ResFolder/svg.png" Grid.ColumnSpan="2"
                Margin="-2,12,122,0" Grid.RowSpan="2" />
-        <TextBlock Margin="32,46,4,34" Grid.RowSpan="2" 
+        <TextBlock Margin="32,52,3,28" Grid.RowSpan="2" 
                    Grid.Row="1"  Text="СкайТревел" Foreground="#FFFFFF"
                    FontWeight="Bold"
                    FontSize="20"/>

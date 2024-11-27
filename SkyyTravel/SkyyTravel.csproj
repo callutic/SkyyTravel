@@ -233,6 +233,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ClassFolder\" />
+    <Folder Include="PageFolder\PageManager\" />
+    <Folder Include="PageFolder\PageStaff\" />
+    <Folder Include="PageFolder\PageUser\" />
   </ItemGroup>
   <ItemGroup>
     <Page Include="ResFolder\Dic.xaml">
