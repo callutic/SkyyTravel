@@ -91,6 +91,24 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Page\PageUser\Favourites.xaml.cs">
+      <DependentUpon>Favourites.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page\PageUser\Help.xaml.cs">
+      <DependentUpon>Help.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page\PageUser\Info.xaml.cs">
+      <DependentUpon>Info.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page\PageUser\MyTickets.xaml.cs">
+      <DependentUpon>MyTickets.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page\PageUser\Passengers.xaml.cs">
+      <DependentUpon>Passengers.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page\PageUser\Profile.xaml.cs">
+      <DependentUpon>Profile.xaml</DependentUpon>
+    </Compile>
     <Compile Include="WinFolder\Avtoriz.xaml.cs">
       <DependentUpon>Avtoriz.xaml</DependentUpon>
     </Compile>
@@ -236,9 +254,32 @@
     <Folder Include="Page\PageForAll\" />
     <Folder Include="Page\PageManager\" />
     <Folder Include="Page\PageStaff\" />
-    <Folder Include="Page\PageUser\" />
   </ItemGroup>
   <ItemGroup>
+    <Page Include="Page\PageUser\Favourites.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page\PageUser\Help.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page\PageUser\Info.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page\PageUser\MyTickets.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page\PageUser\Passengers.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page\PageUser\Profile.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ResFolder\Dic.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
