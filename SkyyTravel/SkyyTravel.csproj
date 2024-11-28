@@ -91,22 +91,22 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Page\PageUser\Favourites.xaml.cs">
+    <Compile Include="PageFolder1\PageUser\Favourites.xaml.cs">
       <DependentUpon>Favourites.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Page\PageUser\Help.xaml.cs">
+    <Compile Include="PageFolder1\PageUser\Help.xaml.cs">
       <DependentUpon>Help.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Page\PageUser\Info.xaml.cs">
+    <Compile Include="PageFolder1\PageUser\Info.xaml.cs">
       <DependentUpon>Info.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Page\PageUser\MyTickets.xaml.cs">
+    <Compile Include="PageFolder1\PageUser\MyTickets.xaml.cs">
       <DependentUpon>MyTickets.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Page\PageUser\Passengers.xaml.cs">
+    <Compile Include="PageFolder1\PageUser\Passengers.xaml.cs">
       <DependentUpon>Passengers.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Page\PageUser\Profile.xaml.cs">
+    <Compile Include="PageFolder1\PageUser\Profile.xaml.cs">
       <DependentUpon>Profile.xaml</DependentUpon>
     </Compile>
     <Compile Include="WinFolder\Avtoriz.xaml.cs">
@@ -251,32 +251,32 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ClassFolder\" />
-    <Folder Include="Page\PageForAll\" />
-    <Folder Include="Page\PageManager\" />
-    <Folder Include="Page\PageStaff\" />
+    <Folder Include="PageFolder1\PageAdmin\" />
+    <Folder Include="PageFolder1\PageForAll\" />
+    <Folder Include="PageFolder1\PageManager\" />
   </ItemGroup>
   <ItemGroup>
-    <Page Include="Page\PageUser\Favourites.xaml">
+    <Page Include="PageFolder1\PageUser\Favourites.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Page\PageUser\Help.xaml">
+    <Page Include="PageFolder1\PageUser\Help.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Page\PageUser\Info.xaml">
+    <Page Include="PageFolder1\PageUser\Info.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Page\PageUser\MyTickets.xaml">
+    <Page Include="PageFolder1\PageUser\MyTickets.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Page\PageUser\Passengers.xaml">
+    <Page Include="PageFolder1\PageUser\Passengers.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Page\PageUser\Profile.xaml">
+    <Page Include="PageFolder1\PageUser\Profile.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

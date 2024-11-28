@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace SkyyTravel.Page.PageUser
+namespace SkyyTravel.PageFolder1.PageUser
 {
     /// <summary>
-    /// Логика взаимодействия для Passengers.xaml
+    /// Логика взаимодействия для Profile.xaml
     /// </summary>
-    public partial class Passengers : Page
+    public partial class Profile : Page
     {
-        public Passengers()
+        public Profile()
         {
             InitializeComponent();
         }
